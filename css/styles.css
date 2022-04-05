@@ -25,7 +25,7 @@ a:hover {
 
 
 #mainNav {
-background-color: #353535;
+    background-color: #353535;
 }
 
 #mainNav .nav-link {
@@ -34,6 +34,7 @@ background-color: #353535;
     font-weight: 400;
 
 }
+
 #mainNav .nav-link:hover {
     color: #4d6d7a;
 }
@@ -60,26 +61,27 @@ background-color: #353535;
 
 
 
-  /*<!-- Carousel -->*/
-.carousel-container{
+/*<!-- Carousel -->*/
+.carousel-container {
     position: relative;
     height: 100%;
     width: 100%;
 }
-  
+
 .carousel-inner {
     height: fit-content;
 }
 
-  /* <!-- Carousel Text --> */
+/* <!-- Carousel Text --> */
 
-  .carousel-header{
-    position:absolute;
-    top:50%;
+.carousel-header {
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 100;
 }
+
 .carousel-header h1 {
     text-align: center;
     color: #ffffff;
@@ -87,7 +89,7 @@ background-color: #353535;
     font-weight: 900;
     letter-spacing: 0.6rem;
 }
-  
+
 .carousel-header p {
     text-align: center;
     color: white;
@@ -134,7 +136,7 @@ background-color: #353535;
     max-width: 800px;
     margin: 80px auto;
     position: relative;
-    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
     padding: 40px;
 }
 
@@ -167,10 +169,11 @@ background-color: #353535;
     font-weight: 400;
 }
 
-.contact-form .input-text:focus + .label,
-.contact-form .input-text.not-empty + .label{
+.contact-form .input-text:focus+.label,
+.contact-form .input-text.not-empty+.label {
     transform: translateY(-2px)
 }
+
 .contact-form .input-text:focus {
     outline: none;
 }
@@ -212,7 +215,7 @@ background-color: #353535;
     max-width: 800px;
     margin: 9% auto;
     position: relative;
-    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.1);
     padding: 60px;
 
 }
@@ -228,27 +231,57 @@ background-color: #353535;
     position: relative;
     /* box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1); */
     padding: 40px;
-    }
-    
+}
+
 #title-about {
-       margin-top: 90px;
-        margin-bottom: 20px;
-        text-align: center;
-        letter-spacing: 2px;
-        font-size: 2.5em;
-    }
-    
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2.5em;
+}
+
 .thumbnail {
     max-width: 200px;
     border-radius: 35%;
-   display: block;  
-   margin-left: auto;
-   margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-skills {
     font-weight: 700;
 }
+
+
+
+
+/* Projects  */
+
+
+
+.banner-project {
+    position: relative;
+}
+
+.banner-project .projects-title {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    letter-spacing: 8px;
+    font-size: 2.75em;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(245, 245, 245);
+    text-transform: uppercase;
+}
+
+#more-projects {
+    background-color: #d9d9d927;
+    letter-spacing: 4px;
+}
+
+
 
 /* Media Queries */
 
@@ -259,6 +292,7 @@ background-color: #353535;
         font-size: 2.5rem;
         font-weight: 700;
     }
+
     .carousel-header p {
         text-align: center;
         color: white;
@@ -273,6 +307,7 @@ background-color: #353535;
         font-size: 2rem;
         font-weight: 700;
     }
+
     .carousel-header p {
         text-align: center;
         color: white;
@@ -293,13 +328,14 @@ background-color: #353535;
         margin-top: 25px;
 
     }
+
     .carousel-header p {
         text-align: center;
         color: white;
         font-size: 0.6rem;
     }
 
-    .carousel-container{
+    .carousel-container {
         margin-top: 10px;
         position: relative;
         height: 100%;
@@ -311,7 +347,11 @@ background-color: #353535;
     }
 
     .carousel-header p {
-        letter-spacing: 3px;   
+        letter-spacing: 3px;
+    }
+
+    .banner-project .projects-title {
+        font-size: 2em;
     }
 }
 
@@ -325,12 +365,12 @@ background-color: #353535;
         margin-bottom: -1rem;
         margin-top: 25px;
     }
-    
+
     .carousel-header p {
-        display: none;   
+        display: none;
     }
-    
-    .carousel-container{
+
+    .carousel-container {
         margin-top: 16px;
         position: relative;
         height: 100%;
@@ -346,7 +386,11 @@ background-color: #353535;
     #mainNav .nav-link {
         font-size: 0.7rem;
         font-weight: 300;
-    
+
     }
-  
+
+    .banner-project .projects-title {
+        font-size: 1.5em;
+    }
+
 }
